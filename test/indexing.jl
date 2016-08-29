@@ -3,8 +3,6 @@ module TestIndexing
     using DataFrames
 
 
-    # FIXME: this file wasn't included in the tests and didn't pass before the port
-
     #
     # DataFrame indexing
     #
