@@ -19,6 +19,6 @@ end
 
 function read_rda(args...)
     depwarn("read_rda() is deprecated. R data format support has been moved to the " *
-            "RData package. Use FileIO.load() instead.")
+            "RData package. Use FileIO.load() instead.", :read_rda)
     FileIO.load(args...)
 end
