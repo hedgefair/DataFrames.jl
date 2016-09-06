@@ -92,8 +92,6 @@ export @~,
 ##
 ##############################################################################
 
-_displaysize(io::IO) = Compat.displaysize()
-
 for (dir, filename) in [
         ("other", "utils.jl"),
         ("other", "index.jl"),
